@@ -142,4 +142,4 @@ Your API will be running on **[http://localhost:5500](http://localhost:5500)** â
 ---
 
 **ðŸš€ Happy Coding!**  
-_Connect with me on [GitHub](https://github.com/waqaskh094)_
+_Connect with me on [GitHub](https://github.com/waqaskh094)_ , [LinkedIn](www.linkedin.com/in/waqas-khalid-62b431305)
