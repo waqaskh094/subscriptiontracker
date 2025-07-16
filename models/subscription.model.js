@@ -43,7 +43,6 @@ const subscriptionSchema = new mongoose.Schema({
     },
     renewelDate: {
         type: Date,
-        required: true,
         validate: {
             validator: function (value) { 
                 value <= new this.startDate
@@ -61,7 +60,7 @@ const subscriptionSchema = new mongoose.Schema({
 
 // Auto-calculate renewal date if missing:
 // if error remove arrow function
-subscriptionSchema.pre('save', (next) => {
+subscriptionSchema.pre('save', function (next) {
     if(!this.renewelDate){
         const renewalPeriods = {
             daily: 1, 
